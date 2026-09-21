@@ -1,0 +1,51 @@
+{
+    "group_members": [
+        "Youssef Salah - 2401246332",
+        "Youssef Anwar - 2401245506",
+        "Ahmed Khamis - 2401243855",
+        "Youssef Shaban - 2401243330",
+        "Mohamed Rizk - 23011132"
+    ],
+    "best_hyperparameters": {
+        "knn_regressor": {
+            "metric": "euclidean",
+            "n_neighbors": 5,
+            "weights": "distance"
+        },
+        "knn_classifier": {
+            "metric": "euclidean",
+            "n_neighbors": 9,
+            "weights": "uniform"
+        },
+        "svr": {
+            "C": 10.0,
+            "gamma": "scale",
+            "kernel": "rbf"
+        },
+        "svc": {
+            "C": 10.0,
+            "gamma": "scale",
+            "kernel": "rbf"
+        },
+        "rf_regressor": {
+            "max_depth": 10,
+            "min_samples_split": 2,
+            "n_estimators": 100
+        },
+        "rf_classifier": {
+            "max_depth": null,
+            "min_samples_split": 10,
+            "n_estimators": 200
+        }
+    },
+    "cv_stability": {
+        "voting_regressor": {
+            "mean_r2": 0.9155438670815206,
+            "std_r2": 0.020672046341496716
+        },
+        "voting_classifier": {
+            "mean_accuracy": 0.9059300262957425,
+            "std_accuracy": 0.004696371908541541
+        }
+    }
+}
